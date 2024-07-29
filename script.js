@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('scroll', fillBars);
 });
-// script.js
 document.addEventListener('DOMContentLoaded', () => {
   const projectCards = document.querySelectorAll('.project-card');
 
@@ -32,9 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const title = card.querySelector('h3').innerText;
           const description = card.querySelector('p').innerText;
 
-          // You can replace this with a modal or redirect to a project page
           alert(`You clicked on: ${title}\nDescription: ${description}`);
       });
   });
 });
-

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,33 +13,19 @@
         <a href="#">Cynthia Maina</a>
       </div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a  href="#contacts"> Contacts</a></li>
       </ul>
     </nav>
-    <div class="landing">
-    <div >
-        <div class="name">
+    <div id="home">
+    <div class="name">
         <h1>
-            <b>I am Cynthia Nduta Maina</b>
+            Hello<br> I'm Cynthia Maina
         </h1>
-    </div>
-    <div class="courses">
-        <div>
-            <li>Backend Developer</li>
-            <li>Frontend Developer</li>
-            <Li>UX/UI Designer</Li>
-            
-        </div>
-        <div>
-            <li>Product Manager</li>
-            <li>Data Scientist</li>
-            <li>Android Develper</li>
-        </div>
-    </div>
-    <div class="reserch"><li>UX Resercher</li></div>
+    <a href="photos/Cynthia  Mainas' CV (1) (5).pdf" class="download-button" download>Download My CV</a>
     </div>
      <div class="image-container">
         <div class="image-flip">
@@ -51,11 +37,6 @@
         </div>
     </div>
      </div>
-     <div class="quote">
-        <p>
-            <q>Everything should be made as simple as, possible. But to do that you have to master complexity.
-        </p>
-     </div>
     </div>
     <div class="skills">
       <div>Problem Solving</div>
@@ -65,10 +46,11 @@
       <div>Resorcefullness</div>
       <div>Strong Work Ethics</div>
     </div>
+    
 
     <div class="heading">ABOUT</div>
 
-    <div class="about">
+    <div id="about">
      
         <div>
             <video class="video" controls="controls"><source src="photos/softvid.mp4"type="video/mp4" /></video>
@@ -87,7 +69,7 @@
 
     </div>
     <div class="heading">Skills</div>
-    <div class="skills-container">
+    <div id="Skills">
 
       <div class="skills-container" id="skills">
         <div class="skill">
@@ -128,6 +110,7 @@
     </div>
     </div>
     <div class="projects-container">
+        <div class="first-projects">
       <div class="project-card">
           <img src="photos/reserch.jpg" alt="Project 1" class="project-image">
           <div class="project-info">
@@ -136,7 +119,7 @@
           </div>
       </div>
       <div class="project-card">
-          <img src="photos/IPCSS.png" alt="Project 2" class="project-image">
+          <img src="photos/pinch-of-yum-workshop-19.jpg" alt="Project 2" class="project-image">
           <div class="project-info">
               <h3>Inota Plus Credit Scoring System</h3>
               <p>This is a brief description of Project 2. It includes key features and technologies used.</p>
@@ -149,10 +132,201 @@
               <p>This is a brief description of Project 3. It includes key features and technologies used.</p>
           </div>
       </div>
+      </div> 
+      <div class="project-card">
+        <img src="photos/the-pomodoro-technique.webp" alt="Project 3" class="project-image">
+        <div class="project-info">
+            <h3>InotaPlus Mobile App</h3>
+            <p>This is a brief description of Project 3. It includes key features and technologies used.</p>
+        </div>
+    </div>
     
   </div>
+  <div>
+    
+    <section class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            </div>
+            <div class="contact-form">
+                <h3>Contact Me</h3>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname" name="surname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Contact Me</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
 
 
   <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Kendric - Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="intro">
+            <h1>Hello, It's Me</h1>
+            <h2>Cynthia Maina</h2>
+            <h3>And I'm a <span class="highlight">Software Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ab.</p>
+            <a href="photos/Cynthia  Mainas' CV (1) (5).pdf" class="btn" download>Download My CV</a>
+        </div>
+        <div class="photo">
+            <img src="photos/Nduta.png" alt="Cynthia Maina">
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-photo">
+                <img src="photos/Nduta.png" alt="Cynthia Maina">
+            </div>
+            <div class="about-content">
+                <h2>About <span class="highlight">Me</span></h2>
+                <h3>Software Developer!</h3>
+                <p>Welcome to my portfolio! I’m a dedicated software developer with a diverse background in UX research, UX/UI design,
+                     frontend and backend development, and product management. My approach centers on creating user-friendly digital 
+                     solutions that seamlessly blend functionality and aesthetics. I prioritize understanding user needs through 
+                     comprehensive research, which informs my design decisions and ensures that the products I build are both effective 
+                     and engaging. With strong communication and collaboration skills, I thrive in team environments, actively engaging 
+                     with stakeholders to align project goals and drive success. I believe that technology should enhance lives, and I 
+                     am always eager to learn and grow through new challenges and opportunities. Let’s connect and create something amazing together!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <!-- <div id="Skills"> -->
+    
+          <div class="skills-container" id="skills">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <span data-skill="80"></span>
+                </div>
+                <p>80%</p>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <span data-skill="90"></span>
+                </div>
+                <p>90%</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <span data-skill="70"></span>
+                </div>
+                <p>70%</p>
+            </div>
+            <div class="skill">
+                <h3>Node.js</h3>
+                <div class="progress-bar">
+                    <span data-skill="70"></span>
+                </div>
+                <p>70%</p>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="progress-bar">
+                    <span data-skill="70"></span>
+                </div>
+                <p>70%</p>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+   
+    <section class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            </div>
+            <div class="contact-form">
+                <h3>Contact Me</h3>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname" name="surname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Contact Me</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <div class="footer-container">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+                <ul class="social-links">
+                    <li><a href="https://twitter.com/yourusername">Twitter</a></li>
+                    <li><a href="https://linkedin.com/in/yourusername">LinkedIn</a></li>
+                    <li><a href="mailto:youremail@example.com">Email Me</a></li>
+                </ul>
+            </div>
+        </footer>
+        
+    </section>
+
 </body>
 </html>
