@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
           window.removeEventListener('scroll', fillBars);
       }
   };
-
   window.addEventListener('scroll', fillBars);
 });
 document.addEventListener('DOMContentLoaded', () => {
